@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio, and my corner of the internet to share my thoughts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielalexvega/portfolio.git"
+  },
+  "author": "Daniel Vega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielalexvega/portfolio/issues"
+  },
+  "homepage": "https://github.com/danielalexvega/portfolio#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.4",
+    "sequelize-cli": "^6.2.0"
+  }
+}
