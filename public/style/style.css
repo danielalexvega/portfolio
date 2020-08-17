@@ -1,0 +1,141 @@
+
+#headerImage{
+  background: url("../images/banner12805.png") no-repeat center center; 
+  background-color: #fffdf7;
+  height:180px;
+}
+
+.navbar-custom {
+  background-color: #06080F;
+}
+
+.custom-text{
+  color:#fffdf7;
+}
+
+.navbar-brand{
+  font-size: 40px;
+  font-family: 'Overpass', sans-serif;
+  letter-spacing: 10px;
+}
+
+.navbar-custom .navbar-brand, 
+.nabbar-custom .navbar-text,
+.navbar-items, .nav-link-custom {
+  color:#fffdf7;
+}
+.card-image-custom {
+  padding:5px;
+}
+.card{
+  margin-top: 15px;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.card-body{
+  padding:1rem;
+}
+.custom-container{
+  width:60%;
+  background-color:#fffdf7;
+  font-family: 'Overpass', sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.custom-btn {
+  background-color:#06080F;
+  color:#fffdf7;
+}
+button.custom-btn:hover,
+a.nav-link-custom:hover {
+  color:#FFE085;
+}
+
+.custom-form {
+  font-family: 'Overpass', sans-serif;
+}
+
+body {
+  background:#fffdf7;
+}
+
+p::selection,
+h1::selection,
+a.nav-link-custom::selection,
+span::selection,
+a::selection,
+h2::selection,
+li::selection,
+ul::selection,
+body::selection,
+br::selection,
+img::selection  {
+  background: #06080F;
+  color:#fffdf7;
+}
+
+#more {display:none}
+
+.btn-read-more {
+  margin-bottom:15px;
+}
+
+.custom-toggler.navbar-toggler{
+  border-color:#FFE085 !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} 
+.port-row {
+    margin-top:20px;
+}
+
+.footer{
+  position:fixed;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  background-color:#1a1a1a;
+  color:#FFE085;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 14px;
+  height: 36px;
+}
+
+.contact-container{
+  height: 640px;
+}
+
+.port-container{
+  height:1250px;
+}
+
+@media screen and (min-width:1000px) {
+  .card{
+      max-width:16rem;
+  }
+  .contact-container {
+      float: left!important;
+      margin-left: 40px;
+  }
+}
+@media screen and (max-width:990px) {
+  .card{
+      max-width:12rem;
+  }
+}
+
+@media screen and (max-width:778px) {
+  .container{
+      max-width: 80%;
+  }
+}
+
