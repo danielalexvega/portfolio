@@ -47,7 +47,8 @@ body {
   padding:1rem;
 }
 .custom-container{
-  width:60%;
+  max-width: 960px;
+  margin: auto;
   background-color:#fffdf7;
 }
 
